@@ -7,7 +7,7 @@ public class Student {
 	private int id;
 	private String name;
 	@Autowired
-	@Qualifier("school1")
+	@Qualifier("school2")
 	
 	private School school;
 	public int getId() {
